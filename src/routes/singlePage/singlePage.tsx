@@ -2,6 +2,8 @@ import { AiOutlineStar } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai"; 
 import { AiFillHeart } from "react-icons/ai"; 
 import { useParams } from "react-router-dom";
+
+
 import { useGetCarByIdQuery } from "../../redux/api/car-api";
 import parse from 'html-react-parser';
 import { Button } from "antd";
